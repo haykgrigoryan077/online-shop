@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardsWrapper {
+    /* position: static;
+    top: 100px; */
+}
+
+.productWrapper {
+    width: 900px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
+.productImage {
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+}
+
+.productName {
+    width: 310px;
+    height: 100px;
+}
+
+.deleteButton {
+    margin-right: 15px;
+    background-color: orange;
+}
+
+.deleteButton:hover {
+    background-color: red;
+}
+
+.editButton {
+    background-color: orange;
+}
+
+.editButton:hover {
+    background-color: greenyellow;
+}
+
+.contentWrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 100px;
+}
